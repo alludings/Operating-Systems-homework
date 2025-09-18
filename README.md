@@ -1,5 +1,3 @@
 # Operating-Systems-homework0
 To run the code, you have to do (go run (file name).go).
-P1 has a simple counter that then produces results for the producer and consumer.
-P2 uses the array to push and pop values throughout the stack with failsafes to make sure the code works properly.
-Both use the fmt library, but P2 has the errors library as a failsafe for each test.
+The p1 program uses two channels one for sending numbers from the producer to the consumer, and the other one is  indicating and swapping everytime. The producer generates numbers 1–5, and the consumer prints them in order, ensuring the output at terminal always switches through producer and consumer. Just realize you can't use goroutine sorry. 🙁 P2 uses the array to push and pop values throughout the stack with failsafes to make sure the code works properly. This is then tested in values of 10 up to 50 and then the values are popped to 0. Both use the fmt library, but P2 has the errors library as a failsafe for each test.
